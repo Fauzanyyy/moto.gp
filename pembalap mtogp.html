@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <title>Moto Gp Fan page</title>
+   <style>
+      body {
+         margin: 0;
+         font-family: Arial, sans-serif;
+         background-color: #f8f8f8;
+      }
+
+      .header {
+         background: #c70f0fef;
+         color: rgb(255, 255, 255);
+         padding: 20px;
+         text-align: center;
+      }
+
+      .header img {
+         width: 60px;
+         vertical-align: middle;
+         margin-right: 20px;
+      }
+
+      .container {
+         display: flex;
+         min-height: 70vh;
+      }
+
+      .sidebar {
+         background: #fff3f3;
+         width: 25%;
+         padding: 20px;
+         box-shadow: 2px 0 5px rgba(0, 0, 0, 0, 1);
+      }
+
+      .sidebar ul {
+         list-style: none;
+         padding: 0;
+      }
+
+      .sidebar li {
+         padding: 10px 0;
+         border-bottom: 1px solid #eee;
+         cursor: pointer;
+      }
+
+      .sidebar li a {
+         color: #333;
+         text-decoration: none;
+      }
+
+      .sidebar li:hover,
+      .sidebar li a:hover {
+         color: #db0007;
+         font-weight: bold;
+      }
+
+      .content {
+         background: white;
+         flex: 1;
+         padding: 20px;
+      }
+
+      .footer {
+         background: #222f3b;
+         color: white;
+         text-align: center;
+         padding: 15px;
+      }
+
+      .highligt {
+         background: #fff0f0;
+         padding: 15px;
+         margin-bottom: 20px;
+         border-left: 5px solid #db0007;
+      }
+
+      .players {
+         display: grid;
+         grid-template-columns: 1fr 1fr 1fr 1fr;
+         gap: 20px;
+      }
+
+      .players-card {
+         height: 500px;
+         border: 1px solid #ccc;
+         box-shadow: 2px 2px 5px #db0007;
+         border-radius: 20px;
+         display: flex;
+         flex-direction: column;
+         padding: 10px;
+      }
+
+      .players-image img {
+         width: 100%;
+         height: 150px;
+      }
+
+      .players-data {
+         text-align: center;
+      }
+   </style>
+</head>
+
+<body>
+   <div class="header">
+      <img src="part2.jpg" alt="moto gp logo">
+      <span><strong>MOTO GP Fan Page</strong></span>
+   </div>
+
+   <div class="container">
+      <div class="sidebar">
+         <h3>Navigasi</h3>
+         <ul>
+            <li>
+               <a href="moto gp.html">beranda</a>
+            </li>
+            <li>
+               <a href="sejarah mtogp.html">sejarah</a>
+            </li>
+            <li>
+               <a href="galeri mtogp.html">galeri</a>
+            </li>
+            <li>
+               <a href="pembalap mtogp.html">pembalap motogp</a>
+            </li>
+         </ul>
+      </div>
+
+
+      <div class="content">
+         <h3>TOP 3 pembalap legendaris!</h3>
+         <div class="players">
+            <!-- pemain 1 -->
+            <div class="players-card">
+               <div class="players-image">
+                  <img src="fto 1.jpg">
+               </div>
+               <div class="players-data">
+                  <h4>valentino rossi</h4>
+                  <p>
+                     Valentino Rossi adalah seorang pembalap motor profesional asal Italia yang dianggap sebagai
+                     salah
+                     satu yang terhebat sepanjang masa. Dijuluki "The Doctor", ia merupakan sosok legendaris yang
+                     memiliki karier panjang dan segudang prestasi di dunia balap motor.
+                  </p>
+               </div>
+            </div>
+            <!-- pemain 2 -->
+            <div class="players-card">
+               <div class="players-image">
+                  <img src="fto 3.jpg">
+               </div>
+               <div class="players-data">
+                  <h4>giacomo agostini</h4>
+                  <p>
+                     Giacomo Agostini adalah mantan pembalap motor Grand Prix asal Italia yang dianggap sebagai salah
+                     satu pembalap terhebat sepanjang masa. Dengan julukan "Ago," ia memegang rekor mutlak dengan 122
+                     kemenangan Grand Prix dan 15 gelar Kejuaraan Dunia, prestasi yang belum terpecahkan hingga saat
+                     ini
+                  </p>
+               </div>
+            </div>
+            <!-- pemain 3 -->
+            <div class="players-card">
+               <div class="players-image">
+                  <img src="fto 2.jpg">
+               </div>
+               <div class="players-data">
+                  <h4>marc márquez</h4>
+                  <p>
+                     Pembalap berpengalaman asal Spanyol dan delapan kali juara dunia (termasuk enam gelar MotoGP),
+                     Marc bergabung dengan Tim Ducati Lenovo pada 2025. Setelah mengatasi cedera parah dan
+                     menghabiskan
+                     waktu di Gresini Racing, ia berambisi meraih gelar kesembilan bersama rekan setim Francesco
+                     Bagnaia
+                  </p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <div class="footer">
+      <p>© 2025 moto gp indonesia fan page
